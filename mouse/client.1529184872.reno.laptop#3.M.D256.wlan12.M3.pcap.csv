@@ -1,0 +1,4 @@
+frame.time_epoch,ip.src,ip.dst,tcp.srcport,tcp.dstport,tcp.seq,tcp.ack,tcp.len,tcp.flags,tcp.analysis.bytes_in_flight,tcp.analysis.ack_rtt,tcp.options.mptcp.rawdataack,tcp.options.mptcp.rawdataseqno
+1529184886.287095000,192.168.43.236,118.190.155.212,43441,8000,0,0,0,0x00000002,,,,
+1529184886.861865000,118.190.155.212,192.168.43.236,8000,43441,0,1,0,0x00000012,,0.574770000,,
+1529184886.861943000,192.168.43.236,118.190.155.212,43441,8000,1,1,0,0x00000010,,0.000078000,,
