@@ -5,11 +5,11 @@ This folds includes codes for measurement in HSR environments and analyze its pe
 ## File Organization
 ``` text
 HSR Measurement
-|-- Bash            # Code for measurement
+|-- bash            # Code for measurement
 |   \-- ...
-|-- C               # Code for create txt files
+|-- c               # Code for create txt files
 |   \-- ...
-|-- Matlab          # Code for evaluating the performance
+|-- matlab          # Code for evaluating the performance
 |   \-- ...
 \-- README.md
 ```
