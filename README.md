@@ -7,7 +7,7 @@ Please cite the paper as follows (or use this [bibtex record](./bibtex.txt)).
 
 ## Data Traces
 
-Data_traces includes the traces for elephant and mice flows collected.
+`data_traces` includes the traces for elephant and mice flows collected.
 
 ## Tools and Scripts
 
