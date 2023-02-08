@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobiNet</string>    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_1">Phone</string>
+    <string name="tab_2">Network</string>
+    <string name="tab_3">About</string>
+    
+    <string name="aboutText">MobiNet is an APP for measuring mobile network performance on Android platform. You can measure your network\'s throughput and latency, as well as other useful network metrics. Now MobiNet has supported all the network types in China.</string>
+    <string name="aboutTextCN">MobiNet是一款评测手机网络性能的APP，分析吞吐量和网络时延等网络参数，目前已支持中国移动、中国联通、中国电信的所有网络制式，包括4G网络。</string>
+    <string name="noteTextCN">\n功能介绍:\n\t1.信号质量: 信号强度数值越大信号越好\n\t2.网络状况: 包括吞吐量、时延等多项测试\n\t3.WiFi质量: RSSI数值越大所连WiFi越好\n\t4.运动速度: 不妨测测高铁时速吧</string>
+    <string name="app_version">\nVersion:\n\t青春版</string>
+    <string name="aboutContact">\nHomepage:\n\thttp://qyxiao.weebly.com\n\nEmail:\n\txqy@thucsnet.org</string>
+    
+</resources>

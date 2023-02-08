@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dip" >
+
+    <RelativeLayout
+        android:layout_width="70dip"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/dataConnectionString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="数据连接:" />
+
+        <TextView
+            android:id="@+id/wifiConnectionString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dataConnectionString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="WiFi连接:" />
+
+        <TextView
+            android:id="@+id/wifiInfoString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wifiConnectionString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="WiFi参数:" />
+
+        <TextView
+            android:id="@+id/macAddressString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wifiInfoString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="mac地址:" />
+
+        <TextView
+            android:id="@+id/ipAddressString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/macAddressString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="IP地址:" />
+
+        <TextView
+            android:id="@+id/throughputString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ipAddressString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="吞吐量:" />
+
+        <TextView
+            android:id="@+id/dnsLatencyString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/throughputString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="DNS时延:" />
+
+        <TextView
+            android:id="@+id/pingLatencyString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dnsLatencyString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="ping时延:" />
+
+        <TextView
+            android:id="@+id/testStateString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pingLatencyString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="Test状态:" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dip"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/dataConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/wifiConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dataConnection"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/wifiInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wifiConnection"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="WiFi连接后有效" />
+
+        <TextView
+            android:id="@+id/macAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wifiInfo"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="WiFi连接后有效" />
+
+        <TextView
+            android:id="@+id/ipAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/macAddress"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="WiFi连接后有效" />
+
+        <TextView
+            android:id="@+id/throughput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ipAddress"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/dnsLatency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/throughput"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/pingLatency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dnsLatency"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/testState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pingLatency"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="请点击开始测试" />
+
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/testState"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="开始测试" />
+    </RelativeLayout>
+
+</LinearLayout>

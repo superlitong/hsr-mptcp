@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dip" >
+
+    <RelativeLayout
+        android:layout_width="70dip"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/phoneModelString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="手机型号:" />
+
+        <TextView
+            android:id="@+id/osVersionString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneModelString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="系统版本:" />
+
+        <TextView
+            android:id="@+id/operatorString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/osVersionString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="运营商:" />
+
+        <TextView
+            android:id="@+id/networkStateString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/operatorString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="连接状态:" />
+
+        <TextView
+            android:id="@+id/networkTypeString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/networkStateString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="网络类型:" />
+
+        <TextView
+            android:id="@+id/signalStrengthString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/networkTypeString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="信号强度:" />
+
+        <TextView
+            android:id="@+id/currentCellString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signalStrengthString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="当前基站:" />
+
+        <TextView
+            android:id="@+id/handoffString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentCellString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="网络选择:" />
+
+        <TextView
+            android:id="@+id/currentLocationString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/handoffString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="当前位置:" />
+
+        <TextView
+            android:id="@+id/gpsStateString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentLocationString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="GPS状态:" />
+
+        <TextView
+            android:id="@+id/satelliteString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gpsStateString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="卫星数:" />
+
+        <TextView
+            android:id="@+id/systemTimeString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/satelliteString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="系统时间:" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="400dip"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/phoneModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/osVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneModel"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/operator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/osVersion"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/networkState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/operator"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/networkType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/networkState"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/signalStrength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/networkType"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/currentCell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signalStrength"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/handoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentCell"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/currentLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/handoff"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/gpsState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentLocation"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/satellite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gpsState"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="GPS开启后有效" />
+
+        <TextView
+            android:id="@+id/systemTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/satellite"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+    </RelativeLayout>
+
+</LinearLayout>
