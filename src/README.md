@@ -1,10 +1,12 @@
 # HSR Measurements
 
-This folds includes codes for measurement in HSR environments and analyze its performance.
+This folds includes source codes for measurement in HSR environments and analyze its performance.
 
 ## File Organization
 ``` text
 HSR Measurement
+|-- android            # Code of Mobinet for measurement
+|   \-- ...
 |-- bash            # Code for measurement
 |   \-- ...
 |-- c               # Code for create txt files
@@ -17,6 +19,9 @@ HSR Measurement
 ## How to Use
 
 ### Measurement
+
+First of all, the Android source code of MobiNet output an APK, which can be installed on the test smartphones.
+
 For measurement, you could copy the `bash` code into Linux environment and just run `run.sh`. Notice here, in our experiments, we requires subflows using different WLAN environment. That is, for each subflow, the corresponding WLAN should have a different SSID.
 
 `loop.sh` is used for countint the bytes in/out from each port
