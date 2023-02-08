@@ -1,0 +1,7 @@
+@inproceedings{li2018measurement,
+  title={A measurement study on multi-path TCP with multiple cellular carriers on high speed rails},
+  author={Li, Li and Xu, Ke and Li, Tong and Zheng, Kai and Peng, Chunyi and Wang, Dan and Wang, Xiangxiang and Shen, Meng and Mijumbi, Rashid},
+  booktitle={Proceedings of the ACM SIGCOMM},
+  pages={161--175},
+  year={2018}
+}
